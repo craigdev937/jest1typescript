@@ -4,7 +4,7 @@
         "strict": true,
         "jsx": "react-jsx",
         "forceConsistentCasingInFileNames": true,
-        "isolatedModules": true,
+        "allowJs": true,
         "resolveJsonModule": true,
         "outDir": "./dist/",
         "module": "esnext",
@@ -14,7 +14,7 @@
         "allowSyntheticDefaultImports": true
     },
     "exclude": ["node_modules"],
-    "include": ["src", "./jest-setup.ts"]
+    "include": ["./src/**/*", "jest.setup.ts"]
 }
 
 
